@@ -2,7 +2,7 @@
 Automated Tests using Selenium Webdriver for various applications on the-internet Heroku app.
 Testing is done on various pages each consisting of certain common webapp features. 
 
-Features Tested: Basic Authentication, Sortable Data Tables, Dynamic Controls, File Download, File Upload, iFrames, and JavaScript Alerts
+Features Tested: Basic Authentication, Sortable Data Tables, Dynamic Controls, File Download, File Upload, iFrames, Drag and Drop, and JavaScript Alerts
 
 Site link: https://the-internet.herokuapp.com/
 
@@ -78,3 +78,12 @@ Test Steps:
            3) Accept alert 
            
 Expected Result: Success message is displayed on the JavaScript Alert page
+
+**Drag and Drop:**
+
+Preconditions: Open the Main page
+
+Test Steps:
+           1) Click the "Drag and Drop" page
+           2) Drag and drop Column A in place of Column B
+           3) Check whether Column A is moved. 
